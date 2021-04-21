@@ -1,4 +1,14 @@
-var requestUrl = "https://raw.githubusercontent.com/prof-rossetti/internet-technologies/main/exercises/fetch-the-data/gradebook.json"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+hubusercontent.com/prof-rossetti/internet-technologies/main/exercises/fetch-the-data/gradebook.json"
 console.log("REQUEST URL", requestUrl)
 fetch(requestUrl)
     .then(response => response.json())
@@ -12,3 +22,6 @@ fetch(requestUrl)
         alert("OOPS, please check your inputs and try again!")
     })
 console.log("THIS WILL BE LOGGED BEFORE THE DATA IS FETCHED")
+</body>
+</html>
+
