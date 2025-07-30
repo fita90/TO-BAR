@@ -1,2 +1,2 @@
 # Bar Tovar
-Fernando Tovar presents: Bar Tovar | a Mixology Immersion 
+Fernando Tovar presents: Bar Tovar | A Mixology Immersion 
